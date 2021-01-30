@@ -1,0 +1,57 @@
+/*
+    Näillä määrityksillä ylikirjoitetaan bootstrapin omia määrityksiä
+*/
+
+header {
+    padding-bottom: 25px;
+}
+
+footer {
+    padding-top: 25px;
+}
+
+a {
+    color: #f39200;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #c77700;
+    text-decoration: underline;
+}
+
+.table-hover tbody tr:hover {
+    color: #f39200;
+    background-color: rgba(33,37,41, 0.80);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: rgba(33,37,41, 0.20);
+}
+.nav-link:hover,
+.nav-link:focus {
+  text-decoration: none;
+  background-color: rgba(33,37,41, 0.20);
+}
+
+.dataTables_length {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.dataTables_filter {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.dataTables_info {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.dataTables_paginate,
+.paging_simple_numbers {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

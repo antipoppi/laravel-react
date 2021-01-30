@@ -1,0 +1,37 @@
+body {
+    font: 100% arial, helvetica, sans-serif;
+}
+
+h2,
+h3 {
+    background-color: #e7ecf1;
+    text-align: center
+}
+
+#container {
+    width: 650px;
+    margin: auto;
+}
+
+p {
+    padding: 0.1em;
+    margin: 0.1em;
+}
+
+.boxi {
+    background-color: #f1f1f1;
+    border: 1px solid #e5e5e5;
+    padding: 10px 0px 10px 25px;
+}
+
+.boxi > ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+}
+
+#shop_cart_img {
+    float: left;
+    margin-bottom: 2em;
+    padding-right: 1em;
+}

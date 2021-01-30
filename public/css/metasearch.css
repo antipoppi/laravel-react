@@ -1,0 +1,30 @@
+#container {
+    width: auto;
+    max-width: 230px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+select{
+    background: lightgray;
+    color: black;
+}
+
+form {
+    padding: 2px;
+    background-color: lightgray;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 3px;
+}
